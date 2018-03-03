@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "228915732724",
+    "firebase_url": "https://vendemas-9894a.firebaseio.com",
+    "project_id": "vendemas-9894a",
+    "storage_bucket": "vendemas-9894a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228915732724:android:73f826edcc37737d",
+        "android_client_info": {
+          "package_name": "com.vendemas.vendemas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228915732724-b0c5fprfumsvelb0oshj5qimn038419t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vendemas.vendemas",
+            "certificate_hash": "fadbb6372c12f0e9884bc494d3b15ff4c89e1bdc"
+          }
+        },
+        {
+          "client_id": "228915732724-oploscm4qau0vfhuqumtmvqir7kl1pbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsLelMf3Pb_jZ5TwlrGVYRsEnnlxY6xXE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228915732724-oploscm4qau0vfhuqumtmvqir7kl1pbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

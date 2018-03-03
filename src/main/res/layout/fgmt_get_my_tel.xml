@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Para continuar, introduce tu número de teléfono. De esta manera, te identificarás dentro de la aplicación con otros usuarios"
+        android:layout_margin="16dp"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:inputType="phone"
+        android:layout_margin="16dp"
+        android:maxLength="25"
+        android:hint="Teléfono"
+        android:digits="1234567890 "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:text="Aceptar"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTerminosCondiciones"
+        android:textStyle="bold"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/terminos_aqui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
